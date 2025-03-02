@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/vhu4uge.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        :root {
+            --primary: #ffc72d;
+            --secondary: #131414;
+            --white-text: #ffffff;
+            --danger: #C61919;
+            --dark: #000000;
+            --font1: "lato";
+            --font2: "new-order";
+            --font3: "p22-mackinac-pro";
+        }
+        .contact-form{background-color: var(--white-text);}
+        .contact-form h3{font-size: 60px;line-height: 70px;margin-bottom: 30px; font-family: var(--font3);}
+        .contact-sec .contact-form{border-radius: 50px;box-shadow: 0px 4px 23.2px 0px #00000026;padding: 60px 40px;}
+        .contact-form .form-control{border-radius: 0;height: 50px;margin: 14px 0 22px;border-color: var(--dark);box-shadow: none;}
+        .contact-form label{font-size: 21px; font-weight: 600px;font-family: var(--font2);}
+        .contact-form form textarea.form-control{height: 150px;margin-bottom: 30px;}
+        .contact-form .btn{border-radius: 0;max-width: 230px;width: 100%;}
+        @media(max-width:991px){.contact-form h3{font-size: 49px;line-height: 16px;margin-bottom: 40px;}.contact-sec .contact-form{border-radius: 35px;}}
+        @media(max-width:767px){.contact-form h3{line-height: 50px; font-size: 35px;margin-bottom: 0px;}
+        .contact-form label{font-size: 15px;}.contact-form .form-control{height: 33px;margin: 5px 0 4px}
+        .contact-sec .contact-form{ padding: 20px 19px;border-radius: 16px;}.contact-form form textarea.form-control{
+        height: 85px;}.contact-form .btn{padding: 6px 0;font-size: 15px;max-width: 140px;}}
+        @media(max-width:500px){.contact-form h3{font-size: 30px;}}
+        @media(max-width:400px){.contact-form h3{font-size: 24px;}.contact-form .btn{padding: 4px;font-size: 14px;}.contact-form label{font-size: 15px;}}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="d-block d-md-none d-xl-none d-lg-none">
+            <div class="menu_overlay" style="display: none;"></div>
+            <div class="mobile_menu_wrap">
+                <ul class="main_menu">
+                    <div class="menu_close">
+                        <a href="javascript:;"><i class="bi bi-x-lg"></i></a>
+                    </div>
+                    <li>
+                        <a href="#">Add page</a>
+                    </li>
+                    <li>
+                        <a href="#">Add page</a>
+                    </li>
+                    <li>
+                        <a href="#">Add page</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 align-self-center">
+                            <div class="inner-btn">
+                                <a href="#"><img src="images/icons/secrch-icon.svg" alt=""></a>
+                                SEARCH
+                            </div>
+                            <form action="">
+                                <label><i class="bi bi-search"></i></label>
+                                <input type="search" placeholder="Search Here" class="form-control">
+                            </form>
+                        </div>
+                        <div class="col-4 align-self-center">
+                            <div class="logo"><a href="index.html"><img src="images/logos/logo.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="col-4 d-flex justify-content-end align-self-center ">
+                            <ul class="top_right_contents">
+                                Menu
+                                <li><a href="javascript:;" class="menu_open"> <i class="bi bi-list"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block d-xl-block d-lg-block">
+            <div class="menu_overlay" style="display: none;"></div>
+            <div class="mobile_menu_wrap">
+                <ul class="main_menu">
+                    <div class="menu_close">
+                        <a href="javascript:;"><i class="bi bi-x-lg"></i></a>
+                    </div>
+                    <li><a href="#">Add page</a></li>
+                    <li><a href="#">Add page</a></li>
+                    <li><a href="#">Add page</a></li>
+                    <li><a href="#">Add page</a></li>
+                </ul>
+            </div>
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2  align-self-center">
+                            <div class="logo"><a href="index.html"><img src="images/logos/logo.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 align-self-center">
+                            <form action="">
+                                <input type="text" class="form-control" placeholder="SEARCH SITE">
+                                <button type="submit"><img src="images/icons/secrch-icon.svg" alt=""></button>
+                            </form>
+                            <div class="top-btns">
+                                <a href="#" class="btn btn-dark"><img src="images/icons/electric.svg" alt="">OUTAGE
+                                    UPDATES</a>
+                                <a href="#" class="btn btn-dark"><img src="images/icons/dollar.svg" alt="">PAY BILL</a>
+                                <a href="#" class="btn btn-dark"><img src="images/icons/profile.svg" alt="">LOG IN TO
+                                    SMARTHUB</a>
+                            </div>
+                        </div>
+                        <div class="col-2 align-self-center ">
+                            <ul class="top_right_contents">
+                                <li><a href="javascript:;" class="menu_open"> MENU <img src="images/icons/menu.svg"
+                                            alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="inner-banner"
+        style="background-image: url(images/banner/banner3.webp);background-repeat: no-repeat;background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-sec" style="background-color: #f5f5f5;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-12 mx-auto">
+                    <div class="contact-form">
+                        <div class="heading">
+                            <h3>GET IN TOUCH</h3>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label>Message</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="inner-btn">
+                                        <input type="submit" value="Submit" class="btn btn-dark">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-sec" style="background-color: var(--secondary);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Subscribe to our <span>newsletter</span></h2>
+                </div>
+                <div class="col-lg-8 align-self-center">
+                    <form>
+                        <input type="email" placeholder="Enter your email" class="form-control">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: var(--primary);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-button">
+                        <a href="#" class="btn btn-dark"><img src="images/icons/shock.svg" alt="">UPDATES OUTAGE</a>
+                        <a href="#" class="btn btn-dark"><img src="images/icons/doller.svg" alt="">PAY BILL</a>
+                        <a href="#" class="btn btn-dark"><img src="images/icons/user.svg" alt="">LOG IN TO
+                            SMARTHUB</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="list-item">
+                        <ul>
+                            <li> <a href="#">About</a></li>
+                            <li> <a href="#">Contact Us</a></li>
+                            <li> <a href="#">Outage Map</a></li>
+                            <li> <a href="#">Latest News</a></li>
+                            <li> <a href="#">Community</a></li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><img src="images/icons/youtube.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 align-self-center text-center">
+                    <div class="footer-content text-center">
+                        <h3>Business office hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <p>PO Box 70 1200 W. Tyler Street.,Gilmer, TX 75644</p>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Member service</h3>
+                                <a href="tel:903.843.2536">903.843.2536</a>
+                                <a href="tel:800.259.2536">800.259.2536</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Outage Reporting</h3>
+                                <a href="tel:903.680.2100">903.680.2100</a>
+                                <a href="tel:866.804.1674">866.804.1674</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Pay by phone</h3>
+                                <a href="tel:903.843.2536">903.680.2100</a>
+                                <a href="tel:800.259.2536">866.804.1674</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  ">
+                    <div class="list-item">
+                        <ul>
+                            <li> <a href="#">What is a co-op?</a></li>
+                            <li> <a href="#">Co-op questions</a></li>
+                            <li> <a href="#">Cooperative fact sheet</a></li>
+                        </ul>
+                        <div class="logo">
+                            <a href="#"><img src="images/logos/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <footer style="background-color: var(--primary); " class="footer-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-button">
+                        <a href="#" class="btn btn-dark"><img src="images/icons/shock.svg" alt="">UPDATES OUTAGE</a>
+                        <a href="#" class="btn btn-dark"><img src="images/icons/doller.svg" alt="" class="doler-img">PAY
+                            BILL</a>
+                        <a href="#" class="btn btn-dark"><img src="images/icons/user.svg" alt="">LOG IN TO SMARTHUB</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 align-self-center text-center">
+                    <div class="footer-content text-center">
+                        <h3>Business office hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <p>PO Box 70 1200 W. <br>Tyler Street.,Gilmer, TX 75644</p>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Member service</h3>
+                                <a href="tel:903.843.2536">903.843.2536</a>
+                                <a href="tel:800.259.2536">800.259.2536</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Outage Reporting</h3>
+                                <a href="tel:903.680.2100">903.680.2100</a>
+                                <a href="tel:866.804.1674">866.804.1674</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="numbers">
+                                <h3>Pay by phone</h3>
+                                <a href="tel:903.843.2536">903.680.2100</a>
+                                <a href="tel:800.259.2536">866.804.1674</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  ">
+                    <div class="list-item">
+
+                        <div class="logo">
+                            <a href="#"><img src="images/logos/logo.svg" alt=""></a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><img src="images/icons/youtube.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/remdom.js"></script>
+</body>
+
+</html>
